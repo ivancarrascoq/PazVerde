@@ -66,3 +66,14 @@ gem 'spree', '~> 3.6.1'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'mysql2'
+#facebook register
+gem 'devise'
+#spree_social
+gem 'spree_social', github: 'spree-contrib/spree_social'
+
+#wishlist
+#gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist', branch: 'master'
+#gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: 'master'
+#gem 'spree_slider', github: 'spree-contrib/spree_slider' 
+# for spree_slider: bundle exec rake railties:install:migrations #bundle exec rake db:migrate
+#gem 'rails-backup-migrate'

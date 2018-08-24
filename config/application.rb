@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 module PazVerde
   class Application < Rails::Application
+    #ivanx
+#    config.path["app/views"]
+
+    #end-ivanx
 
     config.to_prepare do
       # Load application's model / class decorators

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+#  class filteringController < ApplicationController
+#    layout '/spree/layouts'
+#  end
+  get 'filtering/filter'
+  get 'filtering/index/:id1/:id2', to: 'filtering#index', as: 'filtering' 
+
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to
   # Spree::ProductsController.

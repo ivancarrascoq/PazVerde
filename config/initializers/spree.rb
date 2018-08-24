@@ -16,3 +16,7 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+#https://github.com/spree-contrib/spree_social
+Spree::SocialConfig[:path_prefix] = 'member'  # for /member/auth/:provider
+Spree::SocialConfig[:path_prefix] = 'profile' # for /profile/auth/:provider
+Spree::SocialConfig[:path_prefix] = ''        # for /auth/:provider
