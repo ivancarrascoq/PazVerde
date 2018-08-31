@@ -1,0 +1,1 @@
+ssh -i /home/ivanx/LightsailDefaultPrivateKey-us-east-1.pem ubuntu@34.225.50.148
