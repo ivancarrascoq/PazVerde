@@ -16,7 +16,7 @@
   <%#= #{filter[:name]}_#{nm}".gsub(/\s+/,'_') %>
 <!---->
 
-<!-- mientras se activa los filtros -->
+
         <ul class="list-group">
           <% labels.each do |nm,val| %>
             <% label = "#{filter[:name]}_#{nm}".gsub(/\s+/,'_') %>
