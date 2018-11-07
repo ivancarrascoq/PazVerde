@@ -1,8 +1,8 @@
 <div id="spree-header">
+  <!--app/views/spree/shared/_header.html.erb-->
   <header id="header" data-hook>
     <div class="container">
       <div class="row">
-        <!--app/views/spree/shared/_header.html.erb-->
         <figure id="logo" class="col-md-4 col-sm-3" data-hook>
           <%= logo %>
         </figure>
@@ -13,4 +13,14 @@
   <div class="container color-verde">
     <%= render partial: 'spree/shared/main_nav_bar' %>
   </div>
+    <% if current_page?('/') %>
+      <div  class="imgbox">
+        <%= image_tag("carousel-2.png", :class=>"carousel") %>
+      </div>
+      <style>
+        .carousel {height: 100%; width: 100%; object-fit: contain;}
+      </style>
+    <% end %>
+
 </div>
+
