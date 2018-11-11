@@ -31,6 +31,6 @@
 
 #
 config/database.yml
-*swp
+*.swp
 #
 db/schema.rb
