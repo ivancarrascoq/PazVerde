@@ -4,7 +4,7 @@
     <ul class="nav navbar-nav" data-hook>
       <!--li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li-->
       <% Spree::Taxonomy.all.each do |a| %>
-        <li id="home-link" data-hook><a href="/t/<%=a.name%>"><%= a.name.gsub(' ','<br/>').upcase.html_safe %></a>
+        <li id="home-link" data-hook><a href="/t/<%=a.name%>"><%= a.name.gsub('-','<br/>').upcase.html_safe %></a>
         </li>
       <% end %>
     </ul>

@@ -77,3 +77,9 @@ gem 'spree_social', github: 'spree-contrib/spree_social'
 #gem 'spree_slider', github: 'spree-contrib/spree_slider' 
 # for spree_slider: bundle exec rake railties:install:migrations #bundle exec rake db:migrate
 #gem 'rails-backup-migrate'
+
+###for the API
+# Gemfile
+gem 'rabl'
+# Also add either `oj` or `yajl-ruby` as the JSON parser
+gem 'oj'
